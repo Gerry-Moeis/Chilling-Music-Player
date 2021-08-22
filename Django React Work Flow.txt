@@ -1,0 +1,15 @@
+1.Make a Project Folder, make 2 folder for backend and frontend
+create virtual environtment inside backend
+2.We need rest_framework and corsheaders installed before it
+3.Inside backend run django-admin startproject mywebsite
+4.Create folder .vscode and file settings.json inside backend folder
+5.Inside frontend run npx create-react-app gui
+6.Inside backend run python manage.py startapp app_name
+7.Create Model for app, and make the migration
+8.Inside app make a folder for api, and create new file:
+-__init__.py
+-serializers.py
+-views.py
+-urls.py
+9.Use Class Based Views on api folder
+10.Inside src in gui folder make components and containers folder
